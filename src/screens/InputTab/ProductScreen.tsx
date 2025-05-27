@@ -227,7 +227,7 @@ export default function ProductScreen() {
           </View>
           {weekHasData && (
             <Text style={styles.totalWeeklyWorkText}>
-              Tổng công tuần1: {weekData.totalWeeklyWork != null ? weekData.totalWeeklyWork.toLocaleString() : '0'}
+              Tổng công tuần: {weekData.totalWeeklyWork != null ? weekData.totalWeeklyWork.toLocaleString() : '0'}
             </Text>
           )}
         </View>
